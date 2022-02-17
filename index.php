@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="SEO, seo, search engine optimization, google, rédaction, copywriting">
+    <meta name="keywords" content="SEO, seo, search engine optimization, google, rédaction, copywriting, référencement, research, UX, experience utilisateur">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <title>Documents</title>
 
@@ -132,7 +132,11 @@
         padding: 35px 0px;
         width: 120px;
     }
-
+    .back{
+        display: block;
+        margin: auto 0;
+        text-align: center;
+    }
 
     /********** text ***********/
 
@@ -161,6 +165,7 @@
         width:100%;
         height: 150px;
         background-color: #5270ff;
+        margin-top: 100px;
     }
 
     </style>
@@ -177,7 +182,9 @@
         <?php
             echo $result['content'];
         ?>
+
     </div>
+
     <footer></footer>
 </body>
 </html>
