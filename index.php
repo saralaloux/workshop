@@ -96,7 +96,7 @@
     .inside ul{
         margin: 40px 0px;
     }
-    .inside li{
+    .inside > li{
         margin: 20px 0px;
         font-size: 20px;
     }

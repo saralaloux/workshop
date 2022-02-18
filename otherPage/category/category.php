@@ -91,8 +91,9 @@
     }
     article{
         width: 450px;
+        height: 550px;
         margin: 60px;
-        background-color: #EBEBEB;
+        background-color: rgb(245, 245, 245);
         border-bottom: 15px solid #5270ff;
     }
     section {
@@ -109,10 +110,11 @@
     }
      /********** text ***********/
     h1{
-        padding-top: 120px;
-       font-size: 180px;
+        /* padding-top: 120px; */
+       font-size: 80px;
        text-align: center;
-       color: #5270ff;
+       /* color: #5270ff; */
+       color: grey;
        font-weight: 900;
        text-transform: uppercase;
     }
@@ -147,24 +149,6 @@
         <?php 
             include('../../component/navbar.php');
         ?>
-        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../../assets/slide1.png" class="d-block w-100" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="../../assets/slide2.png" class="d-block w-100" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="../../assets/slide3.png" class="d-block w-100" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="../../assets/slide4.png" class="d-block w-100" alt="">
-                </div><div class="carousel-item">
-                    <img src="../../assets/slide5.png" class="d-block w-100" alt="">
-                </div>
-            </div>
-        </div> -->
         <h1>
             <?php 
                 echo $result_category['name'];
@@ -184,7 +168,7 @@
                         </a>
                     </h2>
                     <div class="img_articles">
-                        <img src="<?php echo $show_article['image_url']; ?>" alt="<?php echo $show_article['image_alt']; ?>" />
+                        <img src="<?php echo $server_url;?>assets/<?php echo $show_article['image_url']; ?>" alt="<?php echo $show_article['image_alt']; ?>" />
                     </div>
                     <section>
                         <?php 

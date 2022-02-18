@@ -89,15 +89,35 @@ main{
     display: block;
     margin:  0 auto;
 }
+.block{
+    border-bottom: 3px solid #5270ff;
+    padding-bottom: 30px;
+}
+.block  li{
+    margin: 20px 0px;
+    font-size: 20px;
+}
 
 /********** text ***********/
-
-    h2{
+    h1{
+        font-size: 50px;
+        color: #5270ff;
         text-align: center;
-        font-size: 45px;
+        padding-bottom: 50px;
+    }
+    h2{
+        padding: 50px 0;
+    }
+    h3{
+        text-align: center;
+        font-size: 40px;
         color: grey;
         font-weight: 900;
-        padding: 50px 0px;
+        padding: 50px 0 20px 0;
+    }
+    h4{
+        color:grey;
+        padding-top: 25px;
     }
     p{
         font-weight: 300;
@@ -105,6 +125,7 @@ main{
     span{
         color: #5270ff;
         margin: 50px 0px;
+        font-weight: 500;
     }
     strong{
         color: #5270ff;
