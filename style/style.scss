@@ -1,0 +1,64 @@
+@import './settings.scss';
+
+
+body {
+    margin: 0;
+    padding: 10px;
+
+    header {
+
+        ul {
+
+            a{
+                color: black;
+            }
+        }
+        width: 100%;
+        height: 200px;
+        background: url('../pictures/header-SEO.jpg');
+
+        @import './navbar.scss';
+
+        h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            line-height: 100px;
+        }
+        @media screen and (min-width: 786px) {
+            h1 {
+                font-size: 3rem;              
+            }
+            
+        }
+    } //End header
+
+    main {
+        h2 {
+            text-align: center;
+            color: blue;
+        }
+    } //End main
+
+    footer {
+        background-color: black;
+
+        h2 {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+
+            li {
+
+                a {
+                    text-decoration: none;
+                    color: #FF5959
+                }
+            }
+        }
+    } //End footer
+}
